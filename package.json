@@ -1,0 +1,25 @@
+{
+  "name": "nia-cropping-calendar-generator",
+  "version": "1.0.0",
+  "description": "Easy way to generate a cropping calendar using NIA's Format",
+  "homepage": "https://github.com/Jookie262/nia-cropping-calendar-generator#readme",
+  "bugs": {
+    "url": "https://github.com/Jookie262/nia-cropping-calendar-generator/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Jookie262/nia-cropping-calendar-generator.git"
+  },
+  "license": "ISC",
+  "author": "Jookie262",
+  "type": "commonjs",
+  "main": "main.js",
+  "scripts": {
+    "start": "nodemon --ext js,css,html --exec electron .",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "electron": "^42.5.0",
+    "nodemon": "^3.1.14"
+  }
+}
