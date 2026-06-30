@@ -15,7 +15,7 @@
   "type": "commonjs",
   "main": "main.js",
   "scripts": {
-    "start": "nodemon --ext js,css,html --exec electron .",
+     "start": "nodemon --ext js,css,html --watch src --exec electron ./src/main/main.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
